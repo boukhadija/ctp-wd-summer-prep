@@ -7,7 +7,17 @@
   <title>Vite + React + TS</title>
 </head>
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <form id="Habit_form">
+      <label for= "habit_name"> Habit Name:</label>
+      <input id="habit_name" type="text"/>
+      <label for="Target_streak">Target Streak: </label>
+      <input id="Target_streak" min="0" max="10" type="number"/>
+      <button type="submit" id="submit_habit"> Submit </button>
+    </form>
+  </div>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
+
+
